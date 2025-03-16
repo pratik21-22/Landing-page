@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;  /* Light gray background for a clean look */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #6C63FF;  /* Purple shade for the header */
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    border-bottom: 5px solid #5a52d6;  /* Slightly darker purple border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img:hover {
+    transform: scale(1.15); /* Slightly bigger on hover */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    font-weight: 300;
+}
+
+/* Contact Info Section */
+.contact-info {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.contact-info:hover {
+    background-color: #f3f3f3; /* Light gray background on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Stronger shadow on hover */
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    color: #6C63FF;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #6C63FF;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #5a52d6; /* Slightly darker purple on hover */
+}
+
+/* Skills Section */
+.skills {
+    padding: 30px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.skills:hover {
+    background-color: #f3f3f3;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 30px;
+    color: #6C63FF;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+.projects {
+    padding: 30px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.projects:hover {
+    background-color: #f3f3f3;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    font-size: 30px;
+    color: #6C63FF;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Education Section */
+.education {
+    padding: 30px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.education:hover {
+    background-color: #f3f3f3;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    font-size: 30px;
+    color: #6C63FF;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.education p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+    background-color: #6C63FF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 5px solid #5a52d6;
+    font-size: 16px;
+    font-weight: 500;
+}
